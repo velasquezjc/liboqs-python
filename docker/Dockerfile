@@ -23,7 +23,7 @@ RUN apk add build-base linux-headers cmake ninja git
 # get all sources
 WORKDIR /opt
 RUN git clone --depth 1 --branch main https://github.com/open-quantum-safe/liboqs && \
-    git clone --depth 1 --branch main https://github.com/open-quantum-safe/liboqs-python.git 
+    git clone --depth 1 --branch main https://github.com/velasquezjc/liboqs-python.git
 
 # build liboqs 
 WORKDIR /opt/liboqs
