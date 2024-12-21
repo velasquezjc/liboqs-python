@@ -21,7 +21,7 @@ WORKDIR /home/oqs
 RUN python3 -m venv venv
 
 # Get liboqs-python
-RUN git clone --depth 1 --branch main https://github.com/open-quantum-safe/liboqs-python.git
+RUN git clone --depth 1 --branch main https://github.com/velasquezjc/liboqs-python.git
 
 # Install liboqs-python
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
